@@ -26,6 +26,7 @@ function createArrayOfEmployeesObjects(employees) {
       name: employee.innerText,
       salary: employee.dataset.salary,
       age: employee.dataset.age,
+      position: employee.dataset.position,
     }
 
     arrayOfEmployees.push(employeeData)
